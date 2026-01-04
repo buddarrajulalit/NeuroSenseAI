@@ -28,10 +28,10 @@ Unlike traditional single-modal approaches, NeuroSenseAI leverages **attention-b
 
 ## System Architecture
 
-Face CNN Embeddings ┐
-├─ Attention Fusion ─ GNN ─ Classifier ─ Emotion Output
-Speech CNN + BiLSTM ┤
-│
+Face CNN Embeddings  ┐
+                     ├─ Attention Fusion ─ GNN ─ Classifier ─ Emotion Output
+Speech CNN+BiLSTM    ┤
+                     │
 Text BERT Embeddings ┘
 
 
